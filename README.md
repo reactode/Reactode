@@ -20,7 +20,7 @@ npm run dev
 
 ## Projects :-
 ### Current Projects
-- Rectode Official Site
+- Reactode Official Site
 
 ### Upcoming Project 
 - SA Academy
