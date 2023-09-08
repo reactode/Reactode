@@ -1,3 +1,4 @@
+import Navbar from "./components/navbar"
 
 
 function App() {
@@ -5,9 +6,7 @@ function App() {
 
   return (
     <>
-      <div>
-       <h1 className='bg-black'>Reactode</h1>
-      </div>
+    <Navbar/>
     </>
   )
 }
