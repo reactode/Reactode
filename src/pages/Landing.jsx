@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Hero from "../components/hero";
 import MajorContributors from "../components/majorContributors";
 
@@ -28,6 +29,7 @@ export default function Landing() {
         </p>
       </div>
       <MajorContributors/>
+      <Footer/>
     </div>
   );
 }
