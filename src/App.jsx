@@ -1,13 +1,15 @@
-import Navbar from "./components/navbar"
+
+import Landing from "./pages/Landing"
+// import Navbar from "./components/navbar"
 
 
 function App() {
  
 
   return (
-    <>
-    <Navbar/>
-    </>
+    <div className="p-6">
+    <Landing/>
+    </div>
   )
 }
 
