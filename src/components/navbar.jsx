@@ -43,7 +43,7 @@ export default function Navbar() {
       <div className="flex justify-between align-center text-2xl">
         {/* Logo */}
 
-        <img className=" self-center max-sm:h-8" src={logo} alt="" />
+        <img className=" self-center max-sm:h-8 md:w-[15%]" src={logo} alt="" />
 
         {/* Navlinks */}
         <div className="hidden md:flex self-center">

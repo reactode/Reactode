@@ -23,14 +23,16 @@ const data = [
 
 export default function MajorContributors() {
   return (
-    <div className="flex flex-col md:flex-row gap-y-44 mt-20">
-       <div className="flex justify-center items-center gap-x-2  ">
-          <h2 className="font-[Inter] text-center text-2xl">Major Contributors</h2>
-          <img className="w-[10%]" src="/hero/whyR.svg" alt="" />
-        </div>
+    <div className="mt-10">
+    <div className="flex justify-center items-center gap-x-2 mb-44 ">
+    <h2 className="font-[Inter] text-center text-2xl md:text-4xl">Major Contributors</h2>
+    <img className="w-[10%] sm:w-[5%]" src="/hero/whyR.svg" alt="" />
+  </div>
+    <div className="flex flex-col md:flex-row gap-y-52 gap-x-10 mt-20">
+      
       {data.map((item) => (
         <div
-          className=" flex flex-col relative  justify-center items-center"
+          className=" flex flex-col basis-1/3 relative  justify-center items-center"
           key={item.id}
           style={{
             
@@ -45,6 +47,7 @@ export default function MajorContributors() {
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 }
