@@ -2,6 +2,7 @@ import Footer from "../components/footer";
 import Hero from "../components/hero";
 import MajorContributors from "../components/majorContributors";
 import WhyReactode from "../components/whyReactode";
+import ContactUs from "../components/contactus";
 
 export default function Landing() {
   return (
@@ -11,6 +12,7 @@ export default function Landing() {
       </div>
       <WhyReactode/>
       <MajorContributors/>
+      <ContactUs/>
       <Footer/>
     </div>
   );
