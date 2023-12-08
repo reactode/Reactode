@@ -8,7 +8,7 @@ export default function WhyReactode() {
           <h2 className="font-[Inter] text-2xl md:text-4xl">Why Reactode</h2>
           <img className="w-[10%] sm:w-[5%]" src="/hero/whyR.svg" alt="" />
         </div>
-        <p className="text-xs sm:text-sm md:text-lg md:px-40 max-sm:text-justify">
+        <p className="text-xs sm:text-sm md:text-lg md:px-40 max-sm:text-justify text-center">
           Choosing a team like Reactode, which collaboratively handles both
           frontend and backend development, offers several advantages. Firstly,
           it promotes seamless communication and collaboration between
